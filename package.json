@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "build": "sh build.sh",
-    "deploy": "sh deploy.sh"
+    "deploy": "sh deploy.sh",
+    "prep:server": "cd src/server && npm i",
+    "prep:client": "cd src/client && npm i",
+    "start:server": "cd src/server && npm start",
+    "start:client": "cd src/client && npm start"
   },
   "keywords": [
     "typescript",
