@@ -1,0 +1,7 @@
+.git
+dist
+src/client/build
+src/server/build
+client/node_modules
+server/node_modules
+Dockerfile

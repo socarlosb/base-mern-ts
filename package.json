@@ -1,0 +1,21 @@
+{
+  "name": "base-mern-ts",
+  "version": "1.0.0",
+  "description": "A simple boilerplate for a full MERN stack, using Mongodb, Express.js, React.js and Node.js with Typescript",
+  "main": "index.js",
+  "scripts": {
+    "build": "sh build.sh",
+    "deploy": "sh deploy.sh"
+  },
+  "keywords": [
+    "typescript",
+    "node",
+    "express",
+    "react",
+    "mongodb",
+    "docker",
+    "docker-compose"
+  ],
+  "author": "Carlos Barbosa <socarlosn@gmail.com>",
+  "license": "MIT"
+}
