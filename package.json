@@ -4,6 +4,7 @@
   "description": "A simple boilerplate for a full MERN stack, using Mongodb, Express.js, React.js and Node.js with Typescript",
   "main": "index.js",
   "scripts": {
+    "clean": "sh clean.sh",
     "build": "sh build.sh",
     "deploy": "sh deploy.sh",
     "prep:server": "cd src/server && npm i",
