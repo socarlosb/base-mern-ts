@@ -4,9 +4,9 @@
 
 - [ ] make a connection example with mongodb
 - [ ] add script to start a mongodb docker container for development
-- [ ] add more todo's
+- [ ] add more "todo's"
 
-## Start
+## Start development
 
 Install dependencies
 
@@ -40,8 +40,10 @@ npm run build
 npm run deploy
 ```
 
-After that you can run `docker-compose up -d` on your root directory to see your live app.
+After that you can run `docker-compose up -d` on your `dist/` directory to see your live app.
 
 ## Notes
 
 - If you change your server PORT, also match it in the `src/client/package.json` file, the _proxy_ parameter
+- `deploy-files/` contains your docker files, they will be copy to the `dist` folder when you run `npm run deploy`
+  - here you can add more files for your CD/CI, like `gitlab-ci.yml`, `exoframe.json`, among others!
